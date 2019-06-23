@@ -1,0 +1,10 @@
+#
+# fips-libtiff
+#
+---
+
+exports:
+  header-dirs : [ '.', 'libtiff'  ]
+  modules:
+    libtiff          : libtiff
+
