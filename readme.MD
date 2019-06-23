@@ -1,4 +1,4 @@
-# fips-libpng
+# fips-libtiff
 
 fipsified libtiff (https://gitlab.com/libtiff/libtiff)
 
