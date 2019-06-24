@@ -12,9 +12,6 @@ All external codecs are currently disabled, except for zlib.
 
 Enable the fips option `TIFF_ZLIB`
 
-It's the responsibility of the importing project to include the headers
-and link against the zlib library (https://github.com/GeertArien/fips-zlib).
-
 ## Cross Compilation
 
 The libtiff cmake file uses the cmake function `check_type_size` to dynamically determine the

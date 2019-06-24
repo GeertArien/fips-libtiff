@@ -2,6 +2,10 @@
 # fips-libtiff
 #
 ---
+imports:
+  fips-zlib:
+    git: https://github.com/GeertArien/fips-zlib.git
+    branch: 1.2.11
 
 exports:
   header-dirs : [ '.', 'libtiff'  ]
