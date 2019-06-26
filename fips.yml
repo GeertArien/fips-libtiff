@@ -6,6 +6,8 @@ imports:
   fips-zlib:
     git: https://github.com/GeertArien/fips-zlib.git
     branch: 1.2.11
+  fips-libjpeg:
+    git: https://github.com/GeertArien/fips-libjpeg.git
 
 exports:
   header-dirs : [ '.', 'libtiff'  ]

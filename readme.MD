@@ -6,11 +6,15 @@ fips build system: https://github.com/floooh/fips
 
 ## External Codecs
 
-All external codecs are currently disabled, except for zlib.
+All external codecs are currently disabled, except for zlib and jpeg.
 
 #### Zlib
 
 Enable the fips option `TIFF_ZLIB`
+
+#### Jpeg
+
+Enable the fips option `TIFF_JPEG`
 
 ## Cross Compilation
 
