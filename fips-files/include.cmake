@@ -284,7 +284,6 @@ if (TIFF_JPEG)
     set(JPEG_SUPPORT TRUE)
 endif()
 
-set(TIFF_OLD_JPEG OFF)
 option(TIFF_OLD_JPEG "support for Old JPEG compression (read-only)" OFF)
 set(OJPEG_SUPPORT FALSE)
 if (JPEG_SUPPORT)
