@@ -200,6 +200,9 @@
 /* define to use win32 IO system */
 #cmakedefine USE_WIN32_FILEIO 1
 
+/* define to use static_cast for win64 pointer cast */
+#cmakedefine USE_WIN64_POINTER_CAST 1
+
 /* Version number of package */
 #define VERSION "@PACKAGE_VERSION@"
 

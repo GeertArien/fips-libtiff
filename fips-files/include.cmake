@@ -410,10 +410,12 @@ set(HAVE_OPENGL FALSE)
 set(win32_io FALSE)
 if(WIN32)
     set(win32_io TRUE)
+    if (CMAKE_CL_64)
+        set(USE_WIN64_POINTER_CAST TRUE)
+    endif()
 endif()
 
 set(USE_WIN32_FILEIO ${win32_io})
-
 
 # Orthogonal features
 
