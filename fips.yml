@@ -8,6 +8,7 @@ imports:
     branch: 1.2.11
   fips-libjpeg:
     git: https://github.com/GeertArien/fips-libjpeg.git
+    branch: 9c
 
 exports:
   header-dirs : [ '.', 'libtiff'  ]
